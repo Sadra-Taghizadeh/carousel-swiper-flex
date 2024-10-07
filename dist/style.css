@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a1a0a0;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 212.667px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+  
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #0a0a0a;
+}
+
+
+
+.swiper-slide h2 {
+background: rgb(84, 101, 190);
+background: radial-gradient(circle, rgba(84, 101, 190, 1) 0%, rgba(137, 85, 195, 1) 20%, rgba(252, 70, 107, 1) 100%);  
+background-clip: text;
+color: transparent;
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  padding: 10px 35px 10px 45px;
+  text-align: center;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--one {
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FDFDFD", GradientType=1 );    
+}
+
+.swiper-slide--two {
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FDFDFD", GradientType=1 );    
+}
+
+.swiper-slide--three {
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FDFDFD", GradientType=1 );    
+}
+
+.swiper-slide--four {
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FDFDFD", GradientType=1 );    
+}
+
+.swiper-slide--five {
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 20%, hsla(0, 0%, 99%, 1) 61%, hsla(60, 3%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FDFDFD", GradientType=1 );    
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
